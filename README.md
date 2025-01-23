@@ -1,3 +1,15 @@
+おすすめの進め方。  
+調べたことをこのリポジトリに書き溜めていく。  
+
+**得られること** 
+- プログラムコード開発の流れ
+- 結合テストの重要性
+  - チーム開発特有でバグが起きる原因
+- 開発でよく使うGit操作
+- バージョン管理の基礎知識
+
+
+--- 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
