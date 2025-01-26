@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Header from "@/components/Header";
-import styles from '../styles/style.module.scss'
+import styles from '@/styles/style.module.scss'
+import Timeline from "@/components/Timeline";
+import Post from "@/components/Post";
+
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
           {/* */}
           {/* 先ほど作成したHeaderのパーツを呼び出す記述を書きます */}
           <Header />
+          <Timeline /> 
+          <Post />
+      
           {/* */}
         </main>
     </>

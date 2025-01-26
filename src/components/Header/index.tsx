@@ -6,16 +6,25 @@ import React from "react";
 
 import style from "./style.module.scss";
 import Link from "next/link";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 const Header = () => {
   return (
     <div className={style.header}>
       <ul>
         <li>
-          <Link href={"/login"}>ログイン</Link>
+          <Link href={"/login"}>
+            <AccountCircleIcon/ >
+
+          ログイン</Link>
         </li>
         <li>
-          <Link href={"/signup"}>登録</Link>
+          <Link href={"/signup"}>
+          <AddCircleIcon/ >
+            
+            
+            登録</Link>
         </li>
       </ul>
     </div>
