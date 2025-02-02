@@ -1,5 +1,4 @@
 import Header from '@/components/Header'
-import SignUp from '@/components/SignUp';
 import { Login } from '@mui/icons-material';
 import React from 'react'
 

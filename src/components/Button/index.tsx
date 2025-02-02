@@ -12,7 +12,7 @@ const Test = styled.div<{ textColor: string; bg: string }>`
 `
 
 
-const Button = ({ bg = "gray", textColor  }) => {
+const Button = ({ bg = "gray", textColor = "black"  }) => {
   return <Test textColor={textColor}bg={bg}>Button</Test>;
 }
 
