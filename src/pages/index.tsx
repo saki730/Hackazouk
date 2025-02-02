@@ -5,8 +5,15 @@ import Timeline from "@/components/Timeline";
 import Post from "@/components/Post";
 import { useEffect, useState } from "react";
 
+type Post = {
+  id: number;
+  name: string;
+  date: string;
+  content: string;
+};
+
 // Memo : データベースから取得しているイメージ（API）
-const dummyData: any = [
+const dummyData: Post[] = [
   {
     id: 1,
     name: "山田 太郎",
@@ -41,8 +48,7 @@ const dummyData: any = [
 
 export default function Home() {
   // useStateを貼り付けてください:hugging:
-  const [posts, setPosts] = useState([]);
-
+  const [posts, setPosts] = useState<Post[]>([]);
   // useEffectの処理=画面が表示された直後に１度実行されます:hugging:
   useEffect(() => {
     // ここに書く
