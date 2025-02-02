@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import styles from "../styles/style.module.scss";
 import Timeline from "@/components/Timeline";
 import Post from "@/components/Post";
-import Button from "@/components/Button";
 import { useEffect, useState } from "react";
 
 // Memo : データベースから取得しているイメージ（API）
